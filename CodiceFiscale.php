@@ -23,7 +23,7 @@ class CodiceFiscale{
         if($c+$v>=3)
             return $r;
         for($i=0; $i+$c+$v<3; $i++)
-            $r .= "x";
+            $r .= "X";
         return $r;
     }
 
@@ -42,7 +42,7 @@ class CodiceFiscale{
         if($c+$v>=3)
             return $r;
         for($i=0; $i+$c+$v<3; $i++)
-            $r .= "x";
+            $r .= "X";
         return $r;
     }
 
